@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+/* html styles */
+html{
+    background-color: lightblue;
+}
+
+/* body styles */
+body{
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: seagreen;
+}
+
+/* header styles */
+header{
+    text-align: center;
+    padding-top: 90px;
+    margin-bottom: 400px;
+}
+h1{
+    font-size: 64pt;
+    margin-bottom: 50px;
+}
+
+/* nav styles */
+nav li{
+    float: left;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 16.6666%;
+    background-color: skyblue;
+    color: blue;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 28pt;
+}
+
+/* article styles */
+article{
+    float: left;
+    clear: left;
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+article h2{
+    text-align: center;
+    font-size: 26pt;
+    margin-bottom: 50px;
+}
+article p{
+    line-height: 50px;
+    font-size: 16pt;
+}
+article::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+#articlePic{
+    float: right;
+    width: auto;
+}
+
+
+/* aside styles */
+aside{
+    float: right;
+    width: 30%;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+aside h2{
+    text-align: center;
+    font-size: 26pt;
+    margin-bottom: 25px;
+}
+aside p{
+    line-height: 35px;
+    font-size: 16pt;
+}
+
+/* section styles */
+h3{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 28pt;
+    background-color: skyblue;
+}
+section img{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+}
+h4{
+    float: left;
+    text-align: center;
+    width: 33%;
+    text-align: center;
+    font-size: 18pt;
+    margin-bottom: 50px;
+}
+
+/* footer styles */
+footer{
+    margin-top: 60px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: skyblue;
+    font-size: 16pt;
+}
