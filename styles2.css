@@ -15,6 +15,9 @@ body{
     box-shadow: 20px 0px 10px rgba(0, 0, 0, 0.3),
      -20px 0px 10px rgba(0, 0, 0, 0.3);
 }
+h2{
+    text-align: center;
+}
 
 /* nav styles */
 nav li{
@@ -39,4 +42,15 @@ nav li:hover{
 }
 a:link, a:visited{
     color: #FFDF01;
+}
+
+#mediapic{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    margin-left: 130px;
+}
+h2{
+    text-align: center;
+    color: #FFDF01;
+    font-family: 'Josefin Sans', sans-serif;
 }

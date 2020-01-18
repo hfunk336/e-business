@@ -111,7 +111,7 @@ article::after{
 }
 #articlePic{
     float: right;
-    width: auto;
+    /* width: auto; */
 }
 
 
